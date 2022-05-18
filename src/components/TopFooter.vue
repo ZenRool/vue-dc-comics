@@ -95,6 +95,7 @@
         </ul>
       </div>
     </div>
+    <div class="right"></div>
   </div>
 </template>
 
@@ -110,7 +111,6 @@ export default {
   background-image: url("../assets/img/footer-bg.jpg");
   color: white;
   display: flex;
-  padding: 2rem 0;
   &__col {
     margin-right: 2.4rem;
     a {
@@ -124,15 +124,25 @@ export default {
     display: flex;
     justify-content: center;
     width: 40%;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     h3 {
       text-transform: uppercase;
       font-size: 2rem;
-      padding: 1rem 0;
+      padding: 2rem 0;
     }
     li {
       padding: 0.4rem;
     }
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    background-image: url("../assets/img/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-attachment: center;
+    background-position: center;
+    background-size: cover;
   }
 }
 </style>
