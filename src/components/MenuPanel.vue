@@ -51,7 +51,7 @@ export default {
   },
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../style/common.scss";
 @import "../style/variables.scss";
 .panel {
@@ -67,6 +67,7 @@ export default {
     justify-content: center;
     align-items: center;
     li {
+      text-transform: uppercase;
       .img-container {
         height: 200px;
         width: 100px;

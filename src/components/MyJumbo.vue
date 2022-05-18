@@ -6,7 +6,7 @@ export default {
   name: "MyJumbo",
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../style/common.scss";
 @import "../style/variables.scss";
 .jumbo {

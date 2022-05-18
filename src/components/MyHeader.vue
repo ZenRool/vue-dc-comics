@@ -87,7 +87,7 @@ export default {
   },
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../style/common.scss";
 @import "../style/variables.scss";
 .header {
@@ -110,6 +110,7 @@ export default {
     align-items: stretch;
     height: 100%;
     li {
+      text-transform: uppercase;
       position: relative;
       display: flex;
       align-items: center;
