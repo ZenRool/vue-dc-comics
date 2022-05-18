@@ -11,7 +11,7 @@
           :class="{ active: item.active }"
           @click="activeIndex(index)"
         >
-          <a href="">{{ item.text }}</a>
+          <a href="javascript: void(0)">{{ item.text }}</a>
         </li>
       </ul>
     </nav>
