@@ -6,7 +6,10 @@
       <MyJumbo />
       <MenuPanel />
     </main>
-    <footer><TopFooter /></footer>
+    <footer>
+      <TopFooter />
+      <BottomFooter />
+    </footer>
   </div>
 </template>
 
@@ -15,6 +18,7 @@ import MyHeader from "./components/MyHeader.vue";
 import MyJumbo from "./components/MyJumbo.vue";
 import MenuPanel from "./components/MenuPanel.vue";
 import TopFooter from "./components/TopFooter.vue";
+import BottomFooter from "./components/BottomFooter.vue";
 export default {
   name: "App",
   components: {
@@ -22,6 +26,7 @@ export default {
     MenuPanel,
     MyJumbo,
     TopFooter,
+    BottomFooter,
   },
 };
 </script>
