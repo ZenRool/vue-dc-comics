@@ -6,21 +6,34 @@ button {
     position: relative;
     background-color: inherit;
     color: white;
+    &.blue {
+        background-color: $brand-primary-color;
+        padding: 0.5rem 3rem;
+        &:hover {
+            background-color: #2176AC;
+        }
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(100% - 3px);
+        height: calc(100% - 3px);
+        border: 3px solid $brand-primary-color;
+    }
+    &:hover {
+        border: none;
+        background-color: $brand-primary-color;
+    }
 }
-
-button::after {
-    content: "";
+.not-button {
+    font-weight: 700;
+    padding: 0.7rem 2rem;
+    text-transform: uppercase;
+    background-color: $brand-primary-color;
+    font-size: 1.7rem;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: calc(100% - 3px);
-    height: calc(100% - 3px);
-    border: 3px solid $brand-primary-color;
+    color: white;
 }
 
-button:hover::after {
-    border-color: red;
-}
-button:hover {
-    border: none;
-}

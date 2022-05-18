@@ -4,6 +4,7 @@
     <MyHeader />
     <main>
       <MyJumbo />
+      <ComicLine />
       <MenuPanel />
     </main>
     <footer>
@@ -19,6 +20,7 @@ import MyJumbo from "./components/MyJumbo.vue";
 import MenuPanel from "./components/MenuPanel.vue";
 import TopFooter from "./components/TopFooter.vue";
 import BottomFooter from "./components/BottomFooter.vue";
+import ComicLine from "./components/ComicLine.vue";
 export default {
   name: "App",
   components: {
@@ -27,6 +29,7 @@ export default {
     MyJumbo,
     TopFooter,
     BottomFooter,
+    ComicLine,
   },
 };
 </script>
