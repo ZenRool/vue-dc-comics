@@ -56,7 +56,7 @@ export default {
 @import "../style/variables.scss";
 .panel {
   display: flex;
-  height: 300px;
+  height: 200px;
   background-color: $brand-primary-color;
   color: white;
   width: 100%;
@@ -69,8 +69,8 @@ export default {
     li {
       text-transform: uppercase;
       .img-container {
-        height: 200px;
-        width: 100px;
+        height: 150px;
+        width: 80px;
         margin-right: 1rem;
         display: flex;
         align-items: center;

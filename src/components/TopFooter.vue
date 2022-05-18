@@ -127,11 +127,12 @@ export default {
     padding-bottom: 2rem;
     h3 {
       text-transform: uppercase;
-      font-size: 2rem;
+      font-size: 1.8rem;
       padding: 2rem 0;
     }
     li {
-      padding: 0.4rem;
+      font-size: 0.8rem;
+      padding: 0.3rem;
     }
   }
   .right {

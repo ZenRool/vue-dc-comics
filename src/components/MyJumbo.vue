@@ -1,5 +1,5 @@
 <template>
-  <div class="jumbo">conteins goes here</div>
+  <div class="jumbo"></div>
 </template>
 <script>
 export default {
@@ -10,8 +10,10 @@ export default {
 @import "../style/common.scss";
 @import "../style/variables.scss";
 .jumbo {
-  background-color: black;
-  color: white;
-  height: 100px;
+  background-image: url("../assets/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 400px;
 }
 </style>
